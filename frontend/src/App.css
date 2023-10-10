@@ -1,0 +1,127 @@
+.navigation_bar {
+  display: flex;
+  list-style: none;
+  padding: 0px 10px;
+  margin: 0px;
+  background-color: #87CEEB;
+
+}
+
+.nav-li {
+  background-color: white;
+  padding: 6px 18px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  
+}
+
+
+.navigation_bar li a {
+  
+  text-decoration: none;
+  /* text-align: center; */
+  color: black;
+  font-size: 16px;
+  
+}
+
+.right_nav  {
+  display: flex;
+  position: absolute;
+  /* margin: 1px 20px; */
+  right: 3.5px;
+  list-style: none;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: #87CEEB;
+  z-index: -1;
+}
+.Account_icon1{
+    margin: 15px 10px;
+ 
+}
+.Account_icon2{
+  border-radius: 50%;
+  /* color: white; */
+  background-color: white;
+  padding: 4.5px 5.5px;
+  margin: 10px 0px;
+}
+@media (max-width: 1000px) {
+  
+    .nav-li {
+      padding: 0.5vw 1.8vw;
+      margin: 1vw 1vw;
+    }
+    .navigation_bar li a {  
+      font-size: 1.7vw;
+    }
+    .right_nav li{
+      padding: 0.5vw 1.8vw;
+        margin: 1vw 1vw;
+    }
+    .right_nav li a{
+      font-size: 1.7vw;
+    }
+
+}
+.spline{
+  width: 100%;
+  height: 86vh;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Product_listing_container{
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.Product_lists{
+  margin: 0px;
+  
+}
+#s_no{
+  padding: 5px 0px;
+  width: 70px;
+  /* margin: 0px; */
+}
+.Product_lists li{
+  display: inline-block;
+  /* width: 130px; */
+  width: 16vw;
+  padding: 5px 0px;
+  border: 2px solid rgb(139, 243, 186);
+}
+.Product_lists li button{
+  margin: 0px;
+  border: none;
+  background-color: white;
+  /* cursor: pointer; */
+}
+#search_bar{
+  width: 400px;
+  height: 40px;
+  font-size: 23px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
